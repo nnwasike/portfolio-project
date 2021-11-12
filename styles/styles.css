@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #f9f7fe;
+  --heading-font: "Alegreya", serif;
+}
+body {
+  border: 2px solid rgba(0, 0, 0, 0.658);
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-size: 70px;
+  font-weight: 600;
+}
+.hero {
+  background-color: var(--primary-color);
+  font-size: 20px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero-hello {
+  font-weight: bold;
+  opacity: 0.85;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.logo {
+  border-radius: 3px;
+  width: 40px;
+}
