@@ -3,26 +3,42 @@
   --heading-font: "Alegreya", serif;
 }
 body {
-  border: 2px solid rgba(0, 0, 0, 0.658);
+  border: 3px solid rgba(0, 0, 0, 0.658);
+  border-radius: 3px;
+  padding-bottom: 20px;
 }
 
 h1 {
   font-family: var(--heading-font);
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 600;
+}
+
+h3 {
+  font-family: var(--heading-font);
+}
+
+a {
+  text-decoration: none;
 }
 .hero {
   background-color: var(--primary-color);
   font-size: 20px;
-  padding: 50px 0;
+  padding: 30px 0 120px 0;
   text-align: center;
 }
 
 .hero-hello {
-  font-weight: bold;
+  font-size: 30px;
   opacity: 0.85;
 }
 
+.homepage-links {
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 .navbar {
   background-color: var(--primary-color);
 }
@@ -30,4 +46,12 @@ h1 {
 .logo {
   border-radius: 3px;
   width: 40px;
+}
+
+.section-headings {
+  text-align: center;
+}
+
+.weather-app-image {
+  width: 400px;
 }
