@@ -7,7 +7,7 @@
 body {
   border: 3px solid rgba(0, 0, 0, 0.658);
   border-radius: 3px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 h1 {
@@ -19,15 +19,15 @@ h1 {
 
 h2 {
   font-family: var(--heading-font);
+  font-style: italic;
   text-align: center;
 }
 
 a {
   color: var(--secondary-color);
-  text-decoration: none;
 }
 
-.home-about-link {
+.home-links {
   display: block;
   margin: 20px 0 auto;
   text-align: center;
@@ -59,4 +59,19 @@ a {
 
 .home-content {
   text-align: right;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 55px;
+  }
+  .hero-hello {
+    font-size: 25px;
+  }
+  .hero {
+    padding-bottom: 80px;
+  }
+  .home-content {
+    text-align: center;
+  }
 }
