@@ -54,12 +54,28 @@ a {
   width: 40px;
 }
 
+.logo:hover {
+  transform: rotate(360deg);
+  transition: all 1.2s ease-in-out;
+}
+
 .weather-app {
   width: 400px;
 }
 
+.about-page-pic {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+
 .home-content {
   text-align: right;
+}
+
+.card {
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 576px) {
