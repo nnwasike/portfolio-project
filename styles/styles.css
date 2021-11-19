@@ -27,11 +27,27 @@ h2 {
 a {
   color: var(--secondary-color);
 }
+hr {
+  margin-top: 35px;
+}
+footer {
+  background-color: var(--primary-color);
+  font-family: var(--heading-font);
+  font-style: italic;
+  padding: 5px;
+}
 
-.home-links {
+.small-head {
+  margin-top: 15px;
+}
+.page-links {
   display: block;
   margin: 20px 0 auto;
   text-align: center;
+}
+
+.contact-links {
+  font-size: larger;
 }
 
 .hero {
@@ -78,6 +94,27 @@ a {
   margin: 0 auto;
 }
 
+.content-paragraphs {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.footer-links {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.icons {
+  padding: 10px;
+  margin: 0 10px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 55px;
@@ -90,5 +127,17 @@ a {
   }
   .home-content {
     text-align: center;
+  }
+  .about-page-pic {
+    margin-bottom: 15px;
+  }
+  .about-paragraph {
+    text-align: center;
+  }
+  .card {
+    text-align: center;
+  }
+  .project-cards-column {
+    margin-bottom: 15px;
   }
 }
